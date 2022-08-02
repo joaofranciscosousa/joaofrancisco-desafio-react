@@ -1,0 +1,132 @@
+.result_header {
+    height: 70px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+}
+
+.result_headerEmpty {
+    width: 40%;
+}
+
+.result_headerMenu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #f9836d;
+    padding: 20px;
+}
+
+.result_headerMenu a {
+    text-decoration: none;
+    display: inli;
+    color: #000;
+    margin-right: 25px;
+}
+
+.result {
+    padding: 0px 15px;
+}
+
+.result_info {
+    display: flex;
+}
+
+.result_infoUser {
+    width: 40%;
+    margin-top: -20px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result_infoImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result_infoImage img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.result_username {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.result_username h5 {
+    font-weight: 400;
+}
+
+.result_username button {
+    background-color: #fafbfc;
+    margin: 10px 0px;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 1px solid lightgray;
+}
+
+.result_username p {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.result_username p p {
+    margin: 0px 4px;
+    font-weight: 600;
+}
+
+.result_repo {
+    margin-top: 50px;
+    width: 60%;
+}
+
+.result_repoEach {
+    padding: 20px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.result_repoEach h5 a {
+    text-decoration: none;
+}
+
+.result_repoEach div {
+    display: flex;
+}
+
+.result_repoEach div p {
+    padding-right: 25px;
+}
+
+.result_repoEach div p i {
+    padding: 0px 5px;
+}
+
+@media (max-width: 700px) {
+    .result_headerEmpty {
+        display: none;
+    }
+
+    .result_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .result_infoUser {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .result_repo {
+        width: 100%;
+    }
+}
